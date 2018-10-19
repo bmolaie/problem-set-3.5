@@ -1,12 +1,15 @@
+
 h1 {
   font-family: Arial;
-  color: black
+  color: #000000
 }
+
 h3 {
   font-family: Arial;
-  color: black
+  color: #000000
 }
+
 p {
-  font-family: Arial;
-  color: red
+  font-family: "Arial", Verdana, Sans-serif;
+  color: #FF0000
 }
