@@ -1,22 +1,22 @@
 h1 {
   font-family: Poppins;
   font-weight: bold;
-  color: #000000;
+  color: black;
   text-align: center;
 }
 h3, h2 {
   font-family: Poppins;
-  color: darkred;
+  color: darkblue;
   text-align: center;
 }
 p {
   font-family: Poppins;
   font-size: 20px;
-  color: gray;
+  color: black;
   text-align: center;
 }
 body {
-  background-image: linear-gradient(white, azure, white)
+  background-color: #AFEEEE;
 }
 img {
   border: 5px solid black;
@@ -28,8 +28,9 @@ img {
   align: center;
 }
 table {
-  width: 80%;
-  margin-left:150px;
+  width: 60%;
+  margin-left:300px;
+  background-color: aliceblue;
 }
 th, td {
     padding: 10px 10x 10x 10x;
