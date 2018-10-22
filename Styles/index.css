@@ -25,9 +25,11 @@ img {
   margin-bottom: 50px;
   margin-right: 200px;
   margin-left: 200px;
+  align: center;
 }
 table {
-    width: 80%;
+  width: 80%;
+  margin-left:150px;
 }
 th, td {
     padding: 10px 10x 10x 10x;
@@ -47,7 +49,8 @@ ul {
   border-bottom: 2px solid teal; 
   border-top: 2px solid teal;
   border-left: 2px solid teal;
-  border-right: 2px solid teal;              
+  border-right: 2px solid teal;  
+  margin-left: 150px;
   }
 ol {
   font-family: Poppins;
@@ -55,7 +58,8 @@ ol {
   border-bottom: 2px solid teal; 
   border-top: 2px solid teal;
   border-left: 2px solid teal;
-  border-right: 2px solid teal;              
+  border-right: 2px solid teal;    
+  margin-left: 150px;
   }
 img {
   border: 5px solid black;
