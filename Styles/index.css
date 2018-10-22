@@ -1,17 +1,43 @@
-.title {
-  font-family: Arial;
+h1 {
+  font-family: Poppins;
   font-weight: bold;
-  color: #000000
+  color: #000000;
 }
-
 h3 {
-  font-family: Arial;
-  color: #DAA520
+  font-family: Poppins;
+  color: #DAA520;
 }
-
 p {
   font-family: "Arial", Verdana, Sans-serif;
-  color: #228B22
+  font-size: 20px;
+  color: #228B22;
+}
+body {
+  background-image: linear-gradient(white, lightblue, silver)
 }
 img {
-  
+  border: 5px solid black;
+  border-radius: 5px;
+}
+table.highlight {
+  background-color: black;
+}
+p.border {
+  border-top:5px solid teal;
+  border-right:5px silver;
+  border-bottom: 5px teal;
+  border-left: 5px silver;
+}
+#underline {
+  text-decoration: underline;
+}
+#shadow {
+  box-shadow:10px 10px;
+}
+#border {
+  border: 5px solid teal;
+}
+* [lang^=en] {
+  background-color: #F0FFFF;
+}
+
