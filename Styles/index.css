@@ -51,7 +51,8 @@ ul {
   border-top: 2px solid teal;
   border-left: 2px solid teal;
   border-right: 2px solid teal;  
-  margin-left: 150px;
+  margin-left: 250px;
+  margin-right:250px;
   }
 ol {
   font-family: Poppins;
@@ -60,7 +61,8 @@ ol {
   border-top: 2px solid teal;
   border-left: 2px solid teal;
   border-right: 2px solid teal;    
-  margin-left: 150px;
+  margin-left: 250px;
+  margin-right:250px;
   }
 img {
   border: 5px solid black;
@@ -71,16 +73,19 @@ img {
   margin-left: 200px;
 }
 p.border {
-  border-top:5px solid teal;
-  border-right:5px silver;
-  border-bottom: 5px teal;
-  border-left: 5px silver;
+  border-top:5px solid aliceblue;
+  border-right:5px aliceblue;
+  border-bottom: 5px aliceblue;
+  border-left: 5px aliceblue;
+}
+p.font {
+  font-style: italic;
+} 
+table.highlight {
+  background-color: aliceblue;
 }
 #underline {
   text-decoration: underline;
-}
-#shadow {
-  box-shadow:10px 10px;
 }
 #corner {
   border-radius: 10px;
