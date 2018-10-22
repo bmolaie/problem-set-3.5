@@ -2,15 +2,18 @@ h1 {
   font-family: Poppins;
   font-weight: bold;
   color: #000000;
+  text-align: center;
 }
-h3 {
+h3, h2 {
   font-family: Poppins;
   color: darkred;
+  text-align: center;
 }
 p {
-  font-family: "Arial", Verdana, Sans-serif;
+  font-family: Poppins;
   font-size: 20px;
   color: gray;
+  text-align: center;
 }
 body {
   background-image: linear-gradient(white, azure, white)
@@ -23,8 +26,44 @@ img {
   margin-right: 200px;
   margin-left: 200px;
 }
-table.highlight {
-  background-color: black;
+table {
+    width: 80%;
+}
+th, td {
+    padding: 10px 10x 10x 10x;
+}
+th, td {
+    border-bottom: 2px solid black; 
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    text-align: center;               
+    text-transform: uppercase;
+}
+ul {
+  list-style-type: square;
+  font-family: Poppins;
+  align: center;
+  border-bottom: 2px solid teal; 
+  border-top: 2px solid teal;
+  border-left: 2px solid teal;
+  border-right: 2px solid teal;              
+  }
+ol {
+  font-family: Poppins;
+  align: center;
+  border-bottom: 2px solid teal; 
+  border-top: 2px solid teal;
+  border-left: 2px solid teal;
+  border-right: 2px solid teal;              
+  }
+img {
+  border: 5px solid black;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 200px;
+  margin-left: 200px;
 }
 p.border {
   border-top:5px solid teal;
@@ -38,8 +77,9 @@ p.border {
 #shadow {
   box-shadow:10px 10px;
 }
-#border {
-  border: 5px solid teal;
+#corner {
+  border-radius: 10px;
+  padding: 20px; 
 }
 * [lang^=en] {
   background-color: #F0FFFF;
@@ -48,8 +88,8 @@ a:hover {
   color:red;
 }
 p {
-	margin-top: 20px;
-	margin-bottom: 20px;
-	margin-right: 30px;
-	margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+  margin-left: 30px;
 }
