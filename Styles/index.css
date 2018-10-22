@@ -5,19 +5,23 @@ h1 {
 }
 h3 {
   font-family: Poppins;
-  color: #DAA520;
+  color: darkred;
 }
 p {
   font-family: "Arial", Verdana, Sans-serif;
   font-size: 20px;
-  color: #228B22;
+  color: gray;
 }
 body {
-  background-image: linear-gradient(white, lightblue, silver)
+  background-image: linear-gradient(white, azure, white)
 }
 img {
   border: 5px solid black;
   border-radius: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 200px;
+  margin-left: 200px;
 }
 table.highlight {
   background-color: black;
@@ -40,4 +44,12 @@ p.border {
 * [lang^=en] {
   background-color: #F0FFFF;
 }
-
+a:hover {
+  color:red;
+}
+p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 30px;
+	margin-left: 30px;
+}
