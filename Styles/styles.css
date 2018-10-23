@@ -1,0 +1,293 @@
+h1 {
+  font-family: Poppins;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  font-size: 25pt;
+}
+* {
+  font-size: 10pt;
+}
+h3, h2 {
+  font-family: Poppins;
+  color: darkblue;
+  text-align: center;
+}
+p {
+  font-family: Poppins;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+body {
+  background-color: #AFEEEE;
+}
+
+table {
+  width: 60%;
+  margin-left:300px;
+  background-color: aliceblue;
+}
+th, td {
+    align-items: center;
+    border-width: thin;
+}
+th, td {
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    text-align: center;
+    text-transform: uppercase;
+}
+ul {
+  list-style-type: square;
+  font-family: Poppins;
+  align: center;
+  border-bottom: 2px solid teal;
+  border-top: 2px solid teal;
+  border-left: 2px solid teal;
+  border-right: 2px solid teal;
+  margin-left: 250px;
+  margin-right:250px;
+  }
+ol {
+  font-family: Poppins;
+  align: center;
+  border-bottom: 2px solid teal;
+  border-top: 2px solid teal;
+  border-left: 2px solid teal;
+  border-right: 2px solid teal;
+  margin-left: 250px;
+  margin-right:250px;
+  }
+img[src="Images/tennis.png"]{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 400px;
+  border: 5px solid black;
+  border-radius: 5px;
+  background-color: #2e5a60;
+}
+p.border {
+  border-top:5px solid aliceblue;
+  border-right:5px aliceblue;
+  border-bottom: 5px aliceblue;
+  border-left: 5px aliceblue;
+}
+p.font {
+  font-style: italic;
+}
+table.highlight {
+  background-color: aliceblue;
+}
+table {
+  border-collapse: collapse;
+}
+#underline {
+  text-decoration: underline;
+}
+#corner {
+  border-radius: 10px;
+  padding: 20px;
+}
+* [lang^=en] {
+  background-color: #F0FFFF;
+}
+a:hover {
+  color:red;
+}
+p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+a:visited {
+  color: green;
+}
+a:link {
+  color:blue;
+}
+#home {
+  border-collapse: collapse;
+  border: 1px solid black;
+  color: black;
+  border-radius: 5px;
+  background-color: #ff9b9b;
+}
+#page1 {
+  border-collapse: collapse;
+  border: 1px solid black;
+  color: black;
+  border-radius: 5px;
+  background-color: #ff9b9b;
+}
+#page2 {
+  border-collapse: collapse;
+  border: 1px solid black;
+  color: black;
+  border-radius: 5px;
+  background-color: #ff9b9b;
+}
+#page3 {
+  border-collapse: collapse;
+  border: 1px solid black;
+  color: black;
+  border-radius: 5px;
+  background-color: #ff9b9b;
+}
+#underline {
+  font-size: 20pt;
+}
+.footer {
+  font-size: 10pt;
+  color: black;
+}
+.footer:hover{
+  color: blue;
+  font-size:15pt;
+}
+footer {
+  font-size: 10pt;
+}
+#moreinfo {
+  font-size: 15pt;
+  color: black;
+}
+#moreinfo:hover{
+  color: blue;
+}
+.highlight:nth-child(even) {
+  background-color: #c2e8ed
+}
+img[src="Images/tennis_diagram.gif"]{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  width: 400px;
+  border: 5px solid black;
+  border-radius: 5px;
+  background-color: #2e5a60;
+}
+img[src="./Images/Federer.jpg"]{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  width: 400px;
+  border: 5px solid black;
+  border-radius: 5px;
+  background-color: #2e5a60;
+}
+img[src="./Images/player.jpg"]{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  width: 400px;
+  border: 5px solid black;
+  border-radius: 5px;
+  background-color: #2e5a60;
+}
+img[src="./Images/king.jpg"]{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  width: 400px;
+  border: 5px solid black;
+  border-radius: 5px;
+  background-color: #2e5a60;
+}
+img[src="./Images/venus.jpg"]{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  width: 400px;
+  border: 5px solid black;
+  border-radius: 5px;
+  background-color: #2e5a60;
+}
+img[src="./Images/serena.jpg"]{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  width: 400px;
+  border: 5px solid black;
+  border-radius: 5px;
+  background-color: #2e5a60;
+}
+img[src="./Images/ashe.jpg"]{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  width: 400px;
+  border: 5px solid black;
+  border-radius: 5px;
+  background-color: #2e5a60;
+}
+img[src="./Images/ashe.jpg"]{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  width: 400px;
+  border: 5px solid black;
+  border-radius: 5px;
+  background-color: #2e5a60;
+}
+img[src="./Images/slam.jpg"]{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  width: 400px;
+  border: 5px solid black;
+  border-radius: 5px;
+  background-color: #2e5a60;
+}
+img[src="./Images/usopen.jpg"]{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  width: 400px;
+  border: 5px solid black;
+  border-radius: 5px;
+  background-color: #2e5a60;
+}
+img[src="./Images/paris.jpg"]{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  width: 400px;
+  border: 5px solid black;
+  border-radius: 5px;
+  background-color: #2e5a60;
+}
+img[src="./Images/wimbledon.jpg"]{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  width: 400px;
+  border: 5px solid black;
+  border-radius: 5px;
+  background-color: #2e5a60;
+}img[src="./Images/australia.jpg"]{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  width: 400px;
+  border: 5px solid black;
+  border-radius: 5px;
+  background-color: #2e5a60;
